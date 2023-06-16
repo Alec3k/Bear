@@ -1,0 +1,9 @@
+@font-face {
+    font-family: "GT-Walsheim";
+    src: url("police/GT-Walsheim-Light.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Migra";
+    src: url("police/Migra-Extrabold.ttf") format("truetype");
+}

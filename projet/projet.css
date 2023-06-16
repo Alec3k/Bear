@@ -1,0 +1,227 @@
+.header {
+    position: absolute;
+    width: 100%;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo_plus_navbar {
+    margin: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo > img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+
+.element_navbar {
+    display: flex;
+    gap: 40px;
+    list-style-type: none;
+    font-size: 20px;
+}
+
+a {
+	position: relative;
+	color: white;
+	text-decoration: none;
+    font-family: GT-Walsheim; 
+	&:hover {
+		color: white;
+		&:before {
+			visibility: visible;
+			transform: scaleX(1);
+		}
+	}
+	&:before {
+		content: "";
+		position: absolute;
+		width: 100%;
+		height: 2px;
+		bottom: 0;
+		left: 0;
+		background-color: white;
+		visibility: hidden;
+		transform: scaleX(0);
+		transition: all 0.3s ease-in-out 0s;
+	}
+}
+
+.horizontal_bar_navbar {
+    background-color: white;
+    height: 2px; 
+    width: 45%; 
+}
+
+/* MAIN HOMEPAGE HEADER----------------------------------------------------------------------------------- */
+
+.background_image_homepage_header {
+    width: 100%;
+    height: 815px;
+    background-image: url("../images/projetpage/image_header.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    top: 0;
+    z-index: -1;
+}
+
+.container_main_header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.homepage {
+    text-align: center;
+}
+
+.title_homepage {
+    font-family: "Migra";
+    color: white;
+    font-size: 27px;
+}
+
+.title_homepage > h1 {
+    margin-top: 290px;
+    margin-bottom: 0.67em;
+}
+
+.button_decouvrir_homepage {
+    font-family: "GT-Walsheim";
+    width: 150px;
+    border: none;
+    border-radius: 30px;
+    font-size: 20px;
+    color: black;
+    background-color: white;
+    font-size: 25px;
+    padding: 10px 10px 10px 10px;
+    transition-duration: 0.3s;
+}
+
+.button_decouvrir_homepage:hover {
+    background-color: black;
+    color: white;
+}
+
+/* MAIN PROJETS----------------------------------------------------------------------------------- */
+
+main {
+    background-color: #121D31;
+}
+
+.container_main_projet {
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    color: white;
+}
+
+.gallerie_projet {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    font-family: "GT-Walsheim";
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+h2 {
+    text-align: center;
+}
+
+/* GALLERIE D'IMAGE UNE----------------------------------------------------------------------------------- */
+
+
+.presentation_image_une {
+    display: flex;
+    gap: 50px;
+    width: 100%;
+}
+
+
+.title_image_une {
+    display: flex;
+    align-items: center;
+    width: 50%;
+    text-align: center;
+}
+
+.image_une {
+    width: 50%;
+    border: 2px solid white;
+}
+
+/* GALLERIE D'IMAGE DEUX----------------------------------------------------------------------------------- */
+
+
+.presentation_image_deux {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 50px;
+    width: 100%;
+}
+
+.title_image_deux {
+    display: flex;
+    align-items: center;
+    width: 50%;
+}
+
+.image_deux {
+    width: 50%;
+    border: 2px solid white;
+}
+
+/* GALLERIE D'IMAGE TROIS----------------------------------------------------------------------------------- */
+
+
+.presentation_image_trois {
+    display: flex;
+    gap: 50px;
+    width: 100%;
+}
+
+.title_image_trois {
+    display: flex;
+    align-items: center;
+    width: 50%;
+}
+
+.image_trois {
+    width: 50%;
+    border: 2px solid white;
+}
+
+/* GALLERIE D'IMAGE QUATRE----------------------------------------------------------------------------------- */
+
+.presentation_image_quatre {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 50px;
+    width: 100%;
+}
+
+.title_image_quatre {
+    display: flex;
+    align-items: center;
+    width: 50%;
+}
+
+.image_quatre {
+    width: 50%;
+    border: 2px solid white;
+}
+
