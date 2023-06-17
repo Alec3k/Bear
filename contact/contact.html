@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contact</title>
+        <link rel="stylesheet" href="../node_modules/normalize.css/normalize.css">
+        <link rel="stylesheet" href="../global.css">
+        <link rel="stylesheet" href="contact.css">
+        <script src="https://kit.fontawesome.com/ce3d6979f7.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <header>
+            <div class="header">
+                <div class="navbar">
+                    <div class="logo_plus_navbar">
+                        <div class="logo">
+                            <img src="../images/homepage/logo.jpeg">
+                        </div>
+                        <nav class="parent_element">
+                            <ul class="element_navbar">
+                                <li><a id="categorie_navbar" href="../index.html">Accueil</a></li>
+                                <li><a id="categorie_navbar" href="../projet/projet.html">Projets</a></li>
+                                <li><a id="categorie_navbar" href="contact.html">Contact</a></li>
+                                <li><a id="categorie_navbar" href="#">Qui sommes nous ?</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="horizontal_bar_navbar"></div>
+                </div>
+            </div>
+        </header>
+        <main>
+            <div class="background_image_homepage_header">
+                <div class="container_main_header">
+                    <div class="homepage">
+                        <div class="title_homepage">
+                            <h1>Opportunités en Vue ?<br> Prenez Contact pour Explorer de Nouveaux Horizons</h1>
+                        </div>
+                        <button class="button_decouvrir_homepage" onclick="smoothScroll('#title_redirection_button')"><i class="fa-solid fa-arrow-down-short-wide"></i></button>
+                    </div>
+                </div>
+            </div>
+            <div id="title_redirection_button" class="formulaire_de_contact">
+                <form class="formulaire">
+                    <label for="nom">Nom :</label>
+                    <input type="text" id="nom" name="nom" placeholder="Entrez votre nom ..." required>
+
+                    <label for="prenom">Prénom :</label>
+                    <input type="text" id="prenom" name="prenom" placeholder="Entrez votre prénom ..." required>
+                  
+                    <label for="email">Email :</label>
+                    <input type="email" id="email" name="email" placeholder="Entrez votre e-mail ..." required>
+
+                    <label for="numero">Numéro :</label>
+                    <input type="tel" id="numero" name="numero" placeholder="Entrez votre numéro de téléphone ..." required>
+
+                    <label for="message">Message :</label>
+                    <textarea type="text" name="message" id="message" placeholder="Entrez votre message ..." cols="33" rows="5"></textarea>
+                  
+                    <input type="submit" value="Envoyer">
+                </form>
+            </div>
+        </main>
+        <div class="hr_formulaire_footer"></div>
+        <footer>
+            <div class="footer_div">
+                <div class="copyright">
+                    <p>© The Diamond - Tout droits réservés - 2023</p>
+                </div>
+                <div class="reseaux_footer">
+                    <a id="lien_reseaux" href="https://www.instagram.com/?hl=fr" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                    <a id="lien_reseaux" href="https://www.facebook.com" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                    <a id="lien_reseaux" href="https://twitter.com" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                    <a id="lien_reseaux" href="https://github.com" target="_blank"><i class="fa-brands fa-github"></i></a>
+                </div>
+            </div>
+        </footer>
+        <script src="../index.js"></script>
+    </body>

@@ -36,7 +36,7 @@
 	text-decoration: none;
     font-family: GT-Walsheim; 
 	&:hover {
-		color: white;
+		color: black;
 		&:before {
 			visibility: visible;
 			transform: scaleX(1);
@@ -49,7 +49,7 @@
 		height: 2px;
 		bottom: 0;
 		left: 0;
-		background-color: white;
+		background-color: black;
 		visibility: hidden;
 		transform: scaleX(0);
 		transition: all 0.3s ease-in-out 0s;
@@ -67,7 +67,7 @@
 .background_image_homepage_header {
     width: 100%;
     height: 815px;
-    background-image: url("images/homepage/fond_homepage_nuage.jpg");
+    background-image: url("../images/contact/wallpaperflare.com_wallpaper\ \(5\).jpg");
     background-size: 100% 100%;
     background-repeat: no-repeat;
     top: 0;
@@ -97,6 +97,7 @@
 
 .button_decouvrir_homepage {
     font-family: "GT-Walsheim";
+    width: 150px;
     border: none;
     border-radius: 30px;
     font-size: 20px;
@@ -110,6 +111,69 @@
 .button_decouvrir_homepage:hover {
     background-color: white;
     color: black;
+}
+
+/* FORMULAIRE DE CONTACT----------------------------------------------------------------------------------- */
+
+body {
+    background-color: #FFC3B6;
+}
+
+.formulaire_de_contact {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+    font-family: GT-Walsheim;
+    background-color: #FFC3B6;
+}
+
+.formulaire {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+input {
+    margin-bottom: 15px;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 30px;
+}
+
+input[type="submit"] {
+    border: none;
+    border-radius: 30px;
+    font-size: 5px;
+    width: 30%;
+    color: white;
+    background-color: black;
+    font-size: 25px;
+    padding: 10px 10px 10px 10px;
+    transition-duration: 0.3s;
+}
+
+input[type="submit"]:hover {
+    background-color: white;
+    color: black;
+}
+
+textarea {
+    margin-bottom: 15px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+label {
+    margin-bottom: 5px;
+}
+
+/* LIGNE SEPARATION FORMULAIRE - FOOTER ----------------------------------------------------------------------------------- */
+
+.hr_formulaire_footer {
+    width: 100%;
+    height: 1px;
+    background-color: black;
 }
 
 /* FOOTER ----------------------------------------------------------------------------------- */
@@ -128,8 +192,6 @@ footer {
 .footer_div {
     font-family: GT-Walsheim;
     margin-left: 20px;
-    margin-right: 20px;
-    margin-top: 20px;
 }
 
 .copyright {
@@ -149,26 +211,4 @@ footer {
 
 #lien_reseaux:hover {
     color: white;
-}
-
-.copyright_reseaux_buttoncontact {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.button_contact_footer {
-    font-family: "GT-Walsheim";
-    border: none;
-    border-radius: 30px;
-    color: white;
-    background-color: black;
-    font-size: 15px;
-    padding: 10px 10px 10px 10px;
-    transition-duration: 0.3s;
-}
-
-.button_contact_footer:hover {
-    background-color: white;
-    color: black;
 }

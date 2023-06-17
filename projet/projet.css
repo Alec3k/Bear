@@ -30,7 +30,7 @@
     font-size: 20px;
 }
 
-a {
+#categorie_navbar {
 	position: relative;
 	color: white;
 	text-decoration: none;
@@ -212,6 +212,7 @@ h2 {
     flex-direction: row-reverse;
     gap: 50px;
     width: 100%;
+    margin-bottom: 30px;
 }
 
 .title_image_quatre {
@@ -225,3 +226,63 @@ h2 {
     border: 2px solid white;
 }
 
+/* FOOTER ----------------------------------------------------------------------------------- */
+
+body {
+    background-color: #FFC3B6;
+}
+
+footer {
+    width: 100%;
+    height: 95px;
+    background-color: #FFC3B6;
+    margin-top: 0;
+}
+
+.footer_div {
+    font-family: GT-Walsheim;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+.copyright {
+    color: black;
+}
+
+.reseaux_footer {
+    font-size: 20px;
+    display: flex;
+    gap: 10px;
+}
+
+#lien_reseaux {
+    color: black;
+    transition-duration: 0.3s;
+}
+
+#lien_reseaux:hover {
+    color: white;
+}
+
+.copyright_reseaux_buttoncontact {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.button_contact_footer {
+    font-family: "GT-Walsheim";
+    border: none;
+    border-radius: 30px;
+    color: white;
+    background-color: black;
+    font-size: 15px;
+    padding: 10px 10px 10px 10px;
+    transition-duration: 0.3s;
+}
+
+.button_contact_footer:hover {
+    background-color: white;
+    color: black;
+}
