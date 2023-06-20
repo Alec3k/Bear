@@ -16,6 +16,12 @@
     justify-content: center;
 }
 
+@media (max-width: 635px) {
+    .logo_plus_navbar {
+        flex-direction: column;
+    }
+}
+
 .logo > img {
     width: 80px;
     height: 80px;
@@ -28,6 +34,13 @@
     gap: 40px;
     list-style-type: none;
     font-size: 20px;
+}
+
+@media (max-width: 635px) {
+    .element_navbar {
+        font-size: 14px;
+        padding-left: 0;
+    }
 }
 
 #categorie_navbar {
@@ -62,6 +75,12 @@
     width: 45%; 
 }
 
+@media (max-width: 635px) {
+    .horizontal_bar_navbar {
+        width: 100%;
+    }
+}
+
 /* MAIN HOMEPAGE HEADER----------------------------------------------------------------------------------- */
 
 .background_image_homepage_header {
@@ -88,6 +107,14 @@
     font-family: "Migra";
     color: black;
     font-size: 27px;
+}
+
+@media (max-width: 635px) {
+    .title_homepage {
+        font-size: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
 }
 
 .title_homepage > h1 {
@@ -166,6 +193,12 @@ footer {
     font-size: 15px;
     padding: 10px 10px 10px 10px;
     transition-duration: 0.3s;
+}
+
+@media (max-width: 635px) {
+    .button_contact_footer {
+        font-size: 11px;
+    }
 }
 
 .button_contact_footer:hover {
